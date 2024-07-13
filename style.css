@@ -6,14 +6,21 @@ body{
 header{
     background-color: forestgreen;
     color: beige;
-    margin: 10px;
+    margin: 0;
     padding: 10px;
     text-align: center;
 }
 header nav{
-
-    margin: 10;
-    padding: 10;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.nav_item{
+    display: inline;
+    margin: 10px;
+}
+.nav_link{
     text-decoration: none;
 }
 main{
@@ -31,8 +38,8 @@ main{
 }
 footer{
     background-color: grey;
-    margin: 0;
+    margin: 10px;
     padding: 20px;
+    text-decoration: none;
     text-align: center;
-    font-size: large;
 }
