@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: forestgreen;
+    color: beige;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+header nav{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.nav_item{
+    display: inline;
+    margin: 10px;
+}
+.nav_link{
+    text-decoration: none;
+}
+main{
+    margin: 10px;
+    padding: 10px;
+}
+#contact_and_profile {
+    overflow: auto;
+}
+#contact{
+    float: left; width: 70%;
+}
+#profile{
+    float: right;
+}
+footer{
+    background-color: grey;
+    margin: 10px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+}
